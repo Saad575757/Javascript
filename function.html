@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="function.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="function1">
+      <h2>Inserted script tag </h2>
+      <p id="demo"></p>
+      <script> 
+           document.getElementById('demo').innerHTML="Yeah script tag inserted";
+      </script>
+    </div>
+    <div class="funtion2">
+        <h2>Fuction calling in body </h2>
+        <p id = "demo2" >So here we go.</p>
+        <button type="button" onclick="myfunction()">Click here to check </button>
+        <script>
+            function myfunction(){
+                document.getElementById('demo2').innerHTML="Yeah it's working";
+            }
+        </script>
+    </div>
+
+    
+</body>
+</html>
