@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statement.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="statement1">
+        <h2> Statement for Javascript </h2>
+        <p >This statement is based for <b>Javascript</b>. In this, we are going to do arthimetic 
+        operation between  <b>Two numbers</b>  </p>
+        <p id="demo"></p>
+        <script>
+            let x,y,z;
+            x=99;
+            y= 100;
+            z= x*y;
+            document.getElementById('demo').innerHTML="The answer of z is " + z ;
+
+        </script>
+        <p>
+            This is based on all about <b> mathameticion.</b> 
+        </p>
+        
+    </div>
+    <div class="output2">
+        <h2>Statement and arthimetic operation</h2>
+        <p>We are going to use <b>function</b> for doing this</p>
+        <button type="button" onclick="myfunction()">Click here </button>
+        <p id="demo2"></p>
+        <p id= "demo3"></p>
+        <script>
+            let a, b, c;
+            a= 10;
+            b= 10;
+            c= a+b;
+            function myfunction(){
+                document.getElementById('demo2').innerHTML="your answer is " + c;
+                document.getElementById('demo3').innerHTML= "Got the answer hurray!";
+            }
+        </script>
+    </div>
+    
+</body>
+</html>
